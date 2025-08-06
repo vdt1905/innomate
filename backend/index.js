@@ -17,10 +17,12 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'http://localhost:5173',
-    'https://innomate-git-main-vdt1905s-projects.vercel.app'  // ✅ Your actual frontend Vercel URL
+    'https://innomate-git-main-vdt1905s-projects.vercel.app',
+    'https://innomate-rnp0qzjd1-vdt1905s-projects.vercel.app'  // ✅ Add this
   ],
   credentials: true,
 }));
+
 
 
 app.use(express.json());
